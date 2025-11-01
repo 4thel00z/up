@@ -8,8 +8,9 @@ import (
 	"strings"
 
 	"github.com/apex/log"
-	"github.com/4thel00z/up/internal/validate"
 	"github.com/pkg/errors"
+
+	"github.com/4thel00z/up/internal/validate"
 )
 
 // TODO: template support

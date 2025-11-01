@@ -6,8 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/4thel00z/up"
 	"github.com/tj/assert"
+
+	"github.com/4thel00z/up"
 )
 
 func newHandler(t testing.TB, c *up.Config) http.Handler {

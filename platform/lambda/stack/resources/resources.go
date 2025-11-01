@@ -4,10 +4,11 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/aws/aws-sdk-go/service/route53"
+
 	"github.com/4thel00z/up"
 	"github.com/4thel00z/up/config"
 	"github.com/4thel00z/up/internal/util"
-	"github.com/aws/aws-sdk-go/service/route53"
 )
 
 // Map type.

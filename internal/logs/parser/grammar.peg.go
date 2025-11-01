@@ -4,12 +4,13 @@ package parser
 
 import (
 	"fmt"
-	"github.com/4thel00z/up/internal/logs/parser/ast"
 	"io"
 	"os"
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/4thel00z/up/internal/logs/parser/ast"
 )
 
 const endSymbol rune = 1114112

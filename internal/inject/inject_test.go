@@ -5,6 +5,7 @@ import (
 	"testing"
 
 	"github.com/tj/assert"
+
 	"github.com/4thel00z/up/internal/inject"
 )
 

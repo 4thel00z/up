@@ -8,9 +8,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/4thel00z/up/internal/util"
 	"github.com/mitchellh/go-homedir"
 	"github.com/pkg/errors"
+
+	"github.com/4thel00z/up/internal/util"
 )
 
 var (

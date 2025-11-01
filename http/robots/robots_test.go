@@ -5,8 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/4thel00z/up"
 	"github.com/tj/assert"
+
+	"github.com/4thel00z/up"
 
 	"github.com/4thel00z/up/config"
 	"github.com/4thel00z/up/http/static"

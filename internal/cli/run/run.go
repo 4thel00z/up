@@ -1,11 +1,12 @@
 package run
 
 import (
+	"github.com/pkg/errors"
+	"github.com/tj/kingpin"
+
 	"github.com/4thel00z/up/internal/cli/root"
 	"github.com/4thel00z/up/internal/stats"
 	"github.com/4thel00z/up/internal/util"
-	"github.com/pkg/errors"
-	"github.com/tj/kingpin"
 )
 
 func init() {

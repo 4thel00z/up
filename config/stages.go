@@ -3,8 +3,9 @@ package config
 import (
 	"sort"
 
-	"github.com/4thel00z/up/internal/validate"
 	"github.com/pkg/errors"
+
+	"github.com/4thel00z/up/internal/validate"
 )
 
 // defaultStages is a list of default stage names.

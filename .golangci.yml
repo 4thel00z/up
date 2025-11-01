@@ -1,0 +1,47 @@
+run:
+  timeout: 5m
+  modules-download-mode: readonly
+
+linters:
+  disable-all: true
+  enable:
+    - gofmt
+    - goimports
+    - govet
+    - ineffassign
+    - typecheck
+    # Disable strict linters for legacy code
+    # - errcheck
+    # - staticcheck
+    # - unused
+    # - gosimple
+
+linters-settings:
+  goimports:
+    local-prefixes: github.com/4thel00z/up
+
+issues:
+  exclude-rules:
+    # Exclude deprecated API warnings for now (legacy codebase)
+    - linters:
+        - staticcheck
+      text: "SA1019:"
+    
+    # Exclude unchecked errors in test files
+    - path: _test\.go
+      linters:
+        - errcheck
+        - gosec
+    
+    # Exclude unused code warnings (may be used by external consumers)
+    - linters:
+        - unused
+      text: "is unused"
+  
+  # Show all issues
+  max-issues-per-linter: 0
+  max-same-issues: 0
+
+output:
+  format: github-actions
+

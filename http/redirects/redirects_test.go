@@ -8,8 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/4thel00z/up"
 	"github.com/tj/assert"
+
+	"github.com/4thel00z/up"
 
 	"github.com/4thel00z/up/internal/redirect"
 )

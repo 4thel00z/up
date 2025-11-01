@@ -3,8 +3,9 @@ package config
 import (
 	"os"
 
-	"github.com/4thel00z/up/internal/util"
 	"github.com/pkg/errors"
+
+	"github.com/4thel00z/up/internal/util"
 )
 
 // Runtime is an app runtime.

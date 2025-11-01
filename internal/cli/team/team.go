@@ -21,6 +21,7 @@ import (
 	"github.com/tj/survey"
 
 	"github.com/apex/log"
+
 	"github.com/4thel00z/up/internal/account"
 	"github.com/4thel00z/up/internal/cli/root"
 	"github.com/4thel00z/up/internal/colors"
@@ -423,7 +424,7 @@ func subscribe(cmd *kingpin.Cmd) {
 		println()
 
 		var interval string
-		err = survey.AskOne(&survey.Select{
+		_ = survey.AskOne(&survey.Select{
 			Message: "Plan:",
 			Options: keys(amountOptions),
 		}, &interval, survey.Required)

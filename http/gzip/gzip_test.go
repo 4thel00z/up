@@ -9,8 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/4thel00z/up"
 	"github.com/tj/assert"
+
+	"github.com/4thel00z/up"
 )
 
 var body = strings.Repeat("так", 5000)

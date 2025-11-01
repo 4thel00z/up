@@ -3,8 +3,9 @@ package config
 import (
 	"encoding/json"
 
-	"github.com/4thel00z/up/internal/validate"
 	"github.com/pkg/errors"
+
+	"github.com/4thel00z/up/internal/validate"
 )
 
 // recordTypes is a list of valid record types.

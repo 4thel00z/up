@@ -6,8 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/4thel00z/up"
 	"github.com/tj/assert"
+
+	"github.com/4thel00z/up"
 )
 
 var hello = http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {

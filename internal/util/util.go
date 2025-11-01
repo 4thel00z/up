@@ -19,13 +19,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/4thel00z/up/internal/colors"
 	"github.com/pascaldekloe/name"
 	"github.com/pkg/errors"
 	"github.com/tj/backoff"
 	"github.com/tj/go-progress"
 	"github.com/tj/go/term"
 	"golang.org/x/net/publicsuffix"
+
+	"github.com/4thel00z/up/internal/colors"
 )
 
 // ClearHeader removes all content header fields.

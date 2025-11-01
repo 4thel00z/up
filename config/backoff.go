@@ -2,7 +2,7 @@ package config
 
 import (
 	"time"
-	
+
 	"github.com/tj/backoff"
 )
 

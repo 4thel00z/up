@@ -15,6 +15,7 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/apex/log"
+
 	"github.com/4thel00z/up"
 	"github.com/4thel00z/up/config"
 	"github.com/4thel00z/up/internal/util"

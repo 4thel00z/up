@@ -6,6 +6,7 @@ import (
 	"net/http"
 
 	"github.com/apex/log"
+
 	"github.com/4thel00z/up"
 	"github.com/4thel00z/up/internal/logs"
 	"github.com/4thel00z/up/internal/redirect"

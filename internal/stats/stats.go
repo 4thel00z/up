@@ -3,7 +3,7 @@ package stats
 
 import (
 	"github.com/apex/log"
-	"github.com/tj/go-cli-analytics"
+	analytics "github.com/tj/go-cli-analytics"
 )
 
 // p merged with track calls.

@@ -8,12 +8,13 @@ import (
 	"github.com/apex/log"
 	"github.com/pkg/errors"
 
+	"github.com/aws/aws-sdk-go/aws/session"
+
 	"github.com/4thel00z/up/internal/header"
 	"github.com/4thel00z/up/internal/inject"
 	"github.com/4thel00z/up/internal/redirect"
 	"github.com/4thel00z/up/internal/validate"
 	"github.com/4thel00z/up/platform/aws/regions"
-	"github.com/aws/aws-sdk-go/aws/session"
 )
 
 // defaulter is the interface that provides config defaulting.
