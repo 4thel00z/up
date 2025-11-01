@@ -1,0 +1,31 @@
+# Act configuration for local GitHub Actions testing
+# Install act: https://github.com/nektos/act
+#
+# Usage:
+#   act                    # Run push events
+#   act pull_request       # Run PR events
+#   act -l                 # List workflows
+#   act -j test            # Run specific job
+#   act -n                 # Dry run
+
+# Use medium image for better compatibility
+-P ubuntu-latest=catthehacker/ubuntu:act-latest
+-P ubuntu-22.04=catthehacker/ubuntu:act-22.04
+-P macos-latest=catthehacker/ubuntu:act-latest
+
+# Architecture for Apple M-series chips
+--container-architecture linux/amd64
+
+# Docker socket for Rancher Desktop (uncomment and adjust path if needed)
+# For Rancher Desktop: --container-daemon-socket ~/.rd/docker.sock
+# For Docker Desktop: default socket should work
+
+# Environment variables
+--env GITHUB_TOKEN
+
+# Use .secrets file if it exists (add secrets for local testing)
+--secret-file .secrets
+
+# Verbose output
+--verbose
+

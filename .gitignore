@@ -12,3 +12,6 @@ dist
 .DS_Store
 internal/proxy/bin/bin_assets.go
 internal/shim/bindata.go
+
+# Act secrets (never commit)
+.secrets
