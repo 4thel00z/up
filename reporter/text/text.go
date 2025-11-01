@@ -12,12 +12,12 @@ import (
 	"github.com/tj/go-spin"
 	"github.com/tj/go/term"
 
-	"github.com/apex/up/internal/colors"
-	"github.com/apex/up/internal/util"
-	"github.com/apex/up/platform/aws/cost"
-	"github.com/apex/up/platform/event"
-	lambdautil "github.com/apex/up/platform/lambda/reporter"
-	"github.com/apex/up/platform/lambda/stack"
+	"github.com/4thel00z/up/internal/colors"
+	"github.com/4thel00z/up/internal/util"
+	"github.com/4thel00z/up/platform/aws/cost"
+	"github.com/4thel00z/up/platform/event"
+	lambdautil "github.com/4thel00z/up/platform/lambda/reporter"
+	"github.com/4thel00z/up/platform/lambda/stack"
 )
 
 // TODO: platform-specific reporting should live in the platform

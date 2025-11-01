@@ -12,7 +12,7 @@ Up focuses on deploying "vanilla" HTTP servers so there's nothing new to learn, 
 
 Up currently supports Node.js, Golang, Python, Java, Crystal, Clojure and static sites out of the box. Up is platform-agnostic, supporting AWS Lambda and API Gateway as the first targets. You can think of Up as self-hosted Heroku style user experience for a fraction of the price, with the security, isolation, flexibility, and scalability of AWS.
 
-Check out the [documentation](https://up.docs.apex.sh/) for more instructions and links, or try one of the [examples](https://github.com/apex/up-examples), or chat with us in [Slack](https://chat.apex.sh/).
+Check out the [documentation](https://up.docs.apex.sh/) for more instructions and links, or try one of the [examples](https://github.com/4thel00z/up-examples), or chat with us in [Slack](https://chat.apex.sh/).
 
 ![](assets/screen2.png)
 

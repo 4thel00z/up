@@ -17,11 +17,11 @@ import (
 	"github.com/tj/go/term"
 	"github.com/tj/kingpin"
 
-	"github.com/apex/up/internal/cli/root"
-	"github.com/apex/up/internal/progressreader"
-	"github.com/apex/up/internal/stats"
-	"github.com/apex/up/internal/userconfig"
-	"github.com/apex/up/internal/util"
+	"github.com/4thel00z/up/internal/cli/root"
+	"github.com/4thel00z/up/internal/progressreader"
+	"github.com/4thel00z/up/internal/stats"
+	"github.com/4thel00z/up/internal/userconfig"
+	"github.com/4thel00z/up/internal/util"
 )
 
 var releasesAPI = env.GetDefault("APEX_RELEASES_API", "https://releases.apex.sh")

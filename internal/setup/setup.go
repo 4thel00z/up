@@ -14,9 +14,9 @@ import (
 	"github.com/tj/go/term"
 	"github.com/tj/survey"
 
-	"github.com/apex/up/internal/util"
-	"github.com/apex/up/internal/validate"
-	"github.com/apex/up/platform/aws/regions"
+	"github.com/4thel00z/up/internal/util"
+	"github.com/4thel00z/up/internal/validate"
+	"github.com/4thel00z/up/platform/aws/regions"
 )
 
 // ErrNoCredentials is the error returned when no AWS credential profiles are available.

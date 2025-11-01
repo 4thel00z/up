@@ -4,9 +4,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/apex/up/internal/cli/root"
+	"github.com/4thel00z/up/internal/cli/root"
 
-	"github.com/apex/up/internal/stats"
+	"github.com/4thel00z/up/internal/stats"
 )
 
 // Run the command.

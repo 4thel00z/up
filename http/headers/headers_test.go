@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/tj/assert"
-	"github.com/apex/up"
+	"github.com/4thel00z/up"
 
-	"github.com/apex/up/http/static"
-	"github.com/apex/up/internal/header"
+	"github.com/4thel00z/up/http/static"
+	"github.com/4thel00z/up/internal/header"
 )
 
 func TestHeaders(t *testing.T) {

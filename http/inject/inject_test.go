@@ -7,13 +7,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/apex/up"
+	"github.com/4thel00z/up"
 	"github.com/tj/assert"
 
-	"github.com/apex/up/config"
-	"github.com/apex/up/http/errorpages"
-	"github.com/apex/up/http/static"
-	"github.com/apex/up/internal/inject"
+	"github.com/4thel00z/up/config"
+	"github.com/4thel00z/up/http/errorpages"
+	"github.com/4thel00z/up/http/static"
+	"github.com/4thel00z/up/internal/inject"
 )
 
 func TestInject(t *testing.T) {

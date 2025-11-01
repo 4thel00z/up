@@ -19,10 +19,10 @@ import (
 	"github.com/facebookgo/freeport"
 	"github.com/pkg/errors"
 
-	"github.com/apex/up"
-	"github.com/apex/up/internal/logs"
-	"github.com/apex/up/internal/logs/writer"
-	"github.com/apex/up/internal/util"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/internal/logs"
+	"github.com/4thel00z/up/internal/logs/writer"
+	"github.com/4thel00z/up/internal/util"
 )
 
 // log context.

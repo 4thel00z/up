@@ -11,8 +11,8 @@ import (
 	"github.com/apex/log"
 	"github.com/dustin/go-humanize"
 
-	"github.com/apex/up/internal/colors"
-	"github.com/apex/up/internal/util"
+	"github.com/4thel00z/up/internal/colors"
+	"github.com/4thel00z/up/internal/util"
 )
 
 var (

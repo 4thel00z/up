@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/apex/log"
-	"github.com/apex/up/platform/event"
+	"github.com/4thel00z/up/platform/event"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"

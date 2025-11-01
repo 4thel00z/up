@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/apex/up"
-	"github.com/apex/up/internal/inject"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/internal/inject"
 )
 
 // response wrapper.

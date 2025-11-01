@@ -8,9 +8,9 @@ import (
 
 	"github.com/apex/log"
 
-	"github.com/apex/up"
-	"github.com/apex/up/internal/logs"
-	"github.com/apex/up/internal/util"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/internal/logs"
+	"github.com/4thel00z/up/internal/util"
 )
 
 // TODO: optional verbose mode with req/res header etc?

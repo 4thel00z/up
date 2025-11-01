@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/apex/up/internal/util"
+	"github.com/4thel00z/up/internal/util"
 	"github.com/tj/go-progress"
 	"github.com/tj/go/term"
 )

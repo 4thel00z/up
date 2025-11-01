@@ -3,7 +3,7 @@ package config
 import (
 	"sort"
 
-	"github.com/apex/up/internal/validate"
+	"github.com/4thel00z/up/internal/validate"
 	"github.com/pkg/errors"
 )
 

@@ -3,7 +3,7 @@ package config
 import (
 	"os"
 
-	"github.com/apex/up/internal/util"
+	"github.com/4thel00z/up/internal/util"
 	"github.com/pkg/errors"
 )
 

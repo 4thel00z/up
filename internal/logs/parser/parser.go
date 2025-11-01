@@ -8,7 +8,7 @@ package parser
 import (
 	"strconv"
 
-	"github.com/apex/up/internal/logs/parser/ast"
+	"github.com/4thel00z/up/internal/logs/parser/ast"
 )
 
 // Parse query string.

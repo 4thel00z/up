@@ -19,7 +19,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/apex/up/internal/colors"
+	"github.com/4thel00z/up/internal/colors"
 	"github.com/pascaldekloe/name"
 	"github.com/pkg/errors"
 	"github.com/tj/backoff"

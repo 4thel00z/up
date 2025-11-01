@@ -1,9 +1,9 @@
 package reporter
 
 import (
-	"github.com/apex/up/reporter/discard"
-	"github.com/apex/up/reporter/plain"
-	"github.com/apex/up/reporter/text"
+	"github.com/4thel00z/up/reporter/discard"
+	"github.com/4thel00z/up/reporter/plain"
+	"github.com/4thel00z/up/reporter/text"
 )
 
 var (

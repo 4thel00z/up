@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/apex/up"
+	"github.com/4thel00z/up"
 	"github.com/tj/assert"
 )
 

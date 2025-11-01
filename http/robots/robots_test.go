@@ -5,11 +5,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/apex/up"
+	"github.com/4thel00z/up"
 	"github.com/tj/assert"
 
-	"github.com/apex/up/config"
-	"github.com/apex/up/http/static"
+	"github.com/4thel00z/up/config"
+	"github.com/4thel00z/up/http/static"
 )
 
 func TestRobots(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/apex/up/internal/util"
+	"github.com/4thel00z/up/internal/util"
 )
 
 // close funcs.

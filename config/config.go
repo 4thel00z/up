@@ -8,11 +8,11 @@ import (
 	"github.com/apex/log"
 	"github.com/pkg/errors"
 
-	"github.com/apex/up/internal/header"
-	"github.com/apex/up/internal/inject"
-	"github.com/apex/up/internal/redirect"
-	"github.com/apex/up/internal/validate"
-	"github.com/apex/up/platform/aws/regions"
+	"github.com/4thel00z/up/internal/header"
+	"github.com/4thel00z/up/internal/inject"
+	"github.com/4thel00z/up/internal/redirect"
+	"github.com/4thel00z/up/internal/validate"
+	"github.com/4thel00z/up/platform/aws/regions"
 	"github.com/aws/aws-sdk-go/aws/session"
 )
 
@@ -91,7 +91,7 @@ func (c *Config) Validate() error {
 	}
 
 	if len(c.Regions) > 1 {
-		return errors.New("multiple regions is not yet supported, see https://github.com/apex/up/issues/134")
+		return errors.New("multiple regions is not yet supported, see https://github.com/4thel00z/up/issues/134")
 	}
 
 	return nil

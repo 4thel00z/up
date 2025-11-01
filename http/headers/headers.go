@@ -9,8 +9,8 @@ import (
 	"github.com/pkg/errors"
 	hdr "github.com/tj/go-headers"
 
-	"github.com/apex/up"
-	"github.com/apex/up/internal/header"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/internal/header"
 )
 
 // TODO: document precedence and/or add options

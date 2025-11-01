@@ -9,12 +9,12 @@ import (
 	"github.com/tj/go/term"
 	"github.com/tj/kingpin"
 
-	"github.com/apex/up"
-	"github.com/apex/up/internal/cli/root"
-	"github.com/apex/up/internal/setup"
-	"github.com/apex/up/internal/stats"
-	"github.com/apex/up/internal/util"
-	"github.com/apex/up/internal/validate"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/internal/cli/root"
+	"github.com/4thel00z/up/internal/setup"
+	"github.com/4thel00z/up/internal/stats"
+	"github.com/4thel00z/up/internal/util"
+	"github.com/4thel00z/up/internal/validate"
 )
 
 func init() {

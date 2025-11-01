@@ -10,10 +10,10 @@ import (
 	"github.com/pkg/errors"
 	accept "github.com/timewasted/go-accept-headers"
 
-	"github.com/apex/up"
-	"github.com/apex/up/internal/errorpage"
-	"github.com/apex/up/internal/logs"
-	"github.com/apex/up/internal/util"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/internal/errorpage"
+	"github.com/4thel00z/up/internal/logs"
+	"github.com/4thel00z/up/internal/util"
 )
 
 // log context.

@@ -1,6 +1,6 @@
 package parser
 
-import "github.com/apex/up/internal/logs/parser/ast"
+import "github.com/4thel00z/up/internal/logs/parser/ast"
 
 type parser Peg {
   stack []ast.Node

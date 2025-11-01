@@ -15,11 +15,11 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/apex/log"
-	"github.com/apex/up"
-	"github.com/apex/up/config"
-	"github.com/apex/up/internal/util"
-	"github.com/apex/up/platform/event"
-	"github.com/apex/up/platform/lambda/stack/resources"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/config"
+	"github.com/4thel00z/up/internal/util"
+	"github.com/4thel00z/up/platform/event"
+	"github.com/4thel00z/up/platform/lambda/stack/resources"
 )
 
 // TODO: refactor a lot

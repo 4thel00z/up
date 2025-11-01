@@ -10,11 +10,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/tj/kingpin"
 
-	"github.com/apex/up"
-	"github.com/apex/up/internal/util"
-	"github.com/apex/up/platform/event"
-	"github.com/apex/up/platform/lambda"
-	"github.com/apex/up/reporter"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/internal/util"
+	"github.com/4thel00z/up/platform/event"
+	"github.com/4thel00z/up/platform/lambda"
+	"github.com/4thel00z/up/reporter"
 )
 
 // Cmd is the root command.

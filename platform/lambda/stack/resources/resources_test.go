@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/apex/up"
-	"github.com/apex/up/config"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/config"
 )
 
 // keys returns keys from a map.

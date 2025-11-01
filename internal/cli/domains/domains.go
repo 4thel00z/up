@@ -9,12 +9,12 @@ import (
 	"github.com/tj/kingpin"
 	"github.com/tj/survey"
 
-	"github.com/apex/up"
-	"github.com/apex/up/internal/cli/root"
-	"github.com/apex/up/internal/colors"
-	"github.com/apex/up/internal/stats"
-	"github.com/apex/up/internal/util"
-	"github.com/apex/up/platform/aws/cost"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/internal/cli/root"
+	"github.com/4thel00z/up/internal/colors"
+	"github.com/4thel00z/up/internal/stats"
+	"github.com/4thel00z/up/internal/util"
+	"github.com/4thel00z/up/platform/aws/cost"
 )
 
 // TODO: add ability to move up/down lines more like a form

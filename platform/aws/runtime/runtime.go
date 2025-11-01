@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/apex/log"
-	"github.com/apex/up"
+	"github.com/4thel00z/up"
 )
 
 // Runtime implementation.

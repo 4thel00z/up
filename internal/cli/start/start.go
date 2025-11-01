@@ -11,10 +11,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/tj/kingpin"
 
-	"github.com/apex/up/handler"
-	"github.com/apex/up/internal/cli/root"
-	"github.com/apex/up/internal/logs/text"
-	"github.com/apex/up/internal/stats"
+	"github.com/4thel00z/up/handler"
+	"github.com/4thel00z/up/internal/cli/root"
+	"github.com/4thel00z/up/internal/logs/text"
+	"github.com/4thel00z/up/internal/stats"
 )
 
 func init() {

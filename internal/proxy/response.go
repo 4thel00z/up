@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/apex/up/internal/util"
+	"github.com/4thel00z/up/internal/util"
 )
 
 // ResponseWriter implements the http.ResponseWriter interface

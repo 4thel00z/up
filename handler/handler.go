@@ -8,18 +8,18 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/apex/up"
-	"github.com/apex/up/http/cors"
-	"github.com/apex/up/http/errorpages"
-	"github.com/apex/up/http/gzip"
-	"github.com/apex/up/http/headers"
-	"github.com/apex/up/http/inject"
-	"github.com/apex/up/http/logs"
-	"github.com/apex/up/http/poweredby"
-	"github.com/apex/up/http/redirects"
-	"github.com/apex/up/http/relay"
-	"github.com/apex/up/http/robots"
-	"github.com/apex/up/http/static"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/http/cors"
+	"github.com/4thel00z/up/http/errorpages"
+	"github.com/4thel00z/up/http/gzip"
+	"github.com/4thel00z/up/http/headers"
+	"github.com/4thel00z/up/http/inject"
+	"github.com/4thel00z/up/http/logs"
+	"github.com/4thel00z/up/http/poweredby"
+	"github.com/4thel00z/up/http/redirects"
+	"github.com/4thel00z/up/http/relay"
+	"github.com/4thel00z/up/http/robots"
+	"github.com/4thel00z/up/http/static"
 )
 
 // FromConfig returns the handler based on user config.

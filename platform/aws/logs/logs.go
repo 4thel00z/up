@@ -10,16 +10,16 @@ import (
 
 	"github.com/apex/log"
 	jsonlog "github.com/apex/log/handlers/json"
-	"github.com/apex/up"
+	"github.com/4thel00z/up"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
 	"github.com/tj/aws/logs"
 
-	"github.com/apex/up/internal/logs/parser"
-	"github.com/apex/up/internal/logs/text"
-	"github.com/apex/up/internal/util"
+	"github.com/4thel00z/up/internal/logs/parser"
+	"github.com/4thel00z/up/internal/logs/text"
+	"github.com/4thel00z/up/internal/util"
 )
 
 // Logs implementation.

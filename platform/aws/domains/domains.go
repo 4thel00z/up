@@ -6,7 +6,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	r "github.com/aws/aws-sdk-go/service/route53domains"
 
-	"github.com/apex/up"
+	"github.com/4thel00z/up"
 )
 
 // Domains implementation.

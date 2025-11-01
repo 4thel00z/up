@@ -8,8 +8,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
 	"github.com/golang/sync/errgroup"
 
-	"github.com/apex/up/internal/metrics"
-	"github.com/apex/up/platform/event"
+	"github.com/4thel00z/up/internal/metrics"
+	"github.com/4thel00z/up/platform/event"
 )
 
 // TODO: write a higher level pkg in tj/aws

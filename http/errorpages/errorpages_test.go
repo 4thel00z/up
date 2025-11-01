@@ -10,8 +10,8 @@ import (
 
 	"github.com/tj/assert"
 
-	"github.com/apex/up"
-	"github.com/apex/up/config"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/config"
 )
 
 var server = http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {

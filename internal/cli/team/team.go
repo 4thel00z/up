@@ -21,14 +21,14 @@ import (
 	"github.com/tj/survey"
 
 	"github.com/apex/log"
-	"github.com/apex/up/internal/account"
-	"github.com/apex/up/internal/cli/root"
-	"github.com/apex/up/internal/colors"
-	"github.com/apex/up/internal/stats"
-	"github.com/apex/up/internal/userconfig"
-	"github.com/apex/up/internal/util"
-	"github.com/apex/up/platform/event"
-	"github.com/apex/up/reporter"
+	"github.com/4thel00z/up/internal/account"
+	"github.com/4thel00z/up/internal/cli/root"
+	"github.com/4thel00z/up/internal/colors"
+	"github.com/4thel00z/up/internal/stats"
+	"github.com/4thel00z/up/internal/userconfig"
+	"github.com/4thel00z/up/internal/util"
+	"github.com/4thel00z/up/platform/event"
+	"github.com/4thel00z/up/reporter"
 )
 
 // api endpoint.

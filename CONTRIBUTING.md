@@ -14,13 +14,13 @@ The following are optional:
 Grab Up:
 
 ```
-$ go get github.com/apex/up
+$ go get github.com/4thel00z/up
 ```
 
 Change into the project:
 
 ```
-$ cd $GOPATH/src/github.com/apex/up
+$ cd $GOPATH/src/github.com/4thel00z/up
 ```
 
 ## Testing
@@ -43,7 +43,7 @@ Although Up is not provided as a library it is structured as if it was, for orga
 - [config](config) – Configuration structures and validation for `up.json`
 - [cmd](cmd) – Commands, where `up` is the CLI and `up-proxy` is serving requests in production
 
-Note that this is just a first pass, and the code / layout will be refactored. View [Godoc](http://godoc.org/github.com/apex/up) for more details of the internals.
+Note that this is just a first pass, and the code / layout will be refactored. View [Godoc](http://godoc.org/github.com/4thel00z/up) for more details of the internals.
 
 ## Proxy
 

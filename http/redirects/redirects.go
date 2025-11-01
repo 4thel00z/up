@@ -6,9 +6,9 @@ import (
 	"net/http"
 
 	"github.com/apex/log"
-	"github.com/apex/up"
-	"github.com/apex/up/internal/logs"
-	"github.com/apex/up/internal/redirect"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/internal/logs"
+	"github.com/4thel00z/up/internal/redirect"
 )
 
 // TODO: tests for popagating 4xx / 5xx, dont mask all these

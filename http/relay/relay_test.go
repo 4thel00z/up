@@ -10,9 +10,9 @@ import (
 
 	"github.com/tj/assert"
 
-	"github.com/apex/up"
-	"github.com/apex/up/config"
-	"github.com/apex/up/internal/util"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/config"
+	"github.com/4thel00z/up/internal/util"
 )
 
 func skipCI(t testing.TB) {

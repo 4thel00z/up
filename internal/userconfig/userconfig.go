@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/apex/up/internal/util"
+	"github.com/4thel00z/up/internal/util"
 	"github.com/mitchellh/go-homedir"
 	"github.com/pkg/errors"
 )

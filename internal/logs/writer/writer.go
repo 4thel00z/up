@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 
 	"github.com/apex/log"
-	"github.com/apex/up/internal/util"
+	"github.com/4thel00z/up/internal/util"
 )
 
 // Writer struct.

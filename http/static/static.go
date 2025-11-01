@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/apex/up"
+	"github.com/4thel00z/up"
 )
 
 // New static handler.

@@ -7,8 +7,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/acm"
 	"github.com/tj/assert"
 	
-	"github.com/apex/up/config"
-	"github.com/apex/up/platform/event"
+	"github.com/4thel00z/up/config"
+	"github.com/4thel00z/up/platform/event"
 )
 
 func TestGetCert(t *testing.T) {

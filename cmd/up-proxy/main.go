@@ -8,12 +8,12 @@ import (
 	"github.com/apex/log"
 	"github.com/apex/log/handlers/json"
 
-	"github.com/apex/up"
-	"github.com/apex/up/handler"
-	"github.com/apex/up/internal/logs"
-	"github.com/apex/up/internal/proxy"
-	"github.com/apex/up/internal/util"
-	"github.com/apex/up/platform/aws/runtime"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/handler"
+	"github.com/4thel00z/up/internal/logs"
+	"github.com/4thel00z/up/internal/proxy"
+	"github.com/4thel00z/up/internal/util"
+	"github.com/4thel00z/up/platform/aws/runtime"
 )
 
 func main() {

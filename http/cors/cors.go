@@ -6,8 +6,8 @@ import (
 
 	"github.com/rs/cors"
 
-	"github.com/apex/up"
-	"github.com/apex/up/config"
+	"github.com/4thel00z/up"
+	"github.com/4thel00z/up/config"
 )
 
 // New CORS handler.

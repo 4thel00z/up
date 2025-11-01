@@ -3,7 +3,7 @@ package stack
 import (
 	"fmt"
 
-	"github.com/apex/up/internal/colors"
+	"github.com/4thel00z/up/internal/colors"
 )
 
 // status map for humanization.

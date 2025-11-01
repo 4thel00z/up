@@ -7,7 +7,7 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/apex/up/platform/event"
+	"github.com/4thel00z/up/platform/event"
 )
 
 // Report on events.

@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/apex/up"
+	"github.com/4thel00z/up"
 	"github.com/tj/assert"
 
-	"github.com/apex/up/internal/redirect"
+	"github.com/4thel00z/up/internal/redirect"
 )
 
 func TestRedirects(t *testing.T) {
